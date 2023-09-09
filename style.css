@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(21, 20, 20);
+}
+
+h1 {
+    color: rgb(203, 98, 135);
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+}
+
+#boton {
+    background-color: rgb(159, 195, 209);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    height: 50px; 
+    width: 200px; 
+    font-size: 16px;
+    border: gray;
+    border-radius: 10px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+  }
+
+  #boton:hover {
+    color: rgb(101, 95, 95);
+    background-color: rgb(175, 179, 184);
+    transform: scale(1.05); 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5); 
+  }
+
+  #queHacer {
+    visibility: hidden;
+    background-color: #333; /* Color de fondo de la tarjeta */
+    color: white; /* Color del texto */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3); /* Sombra */
+    text-align: center;
+    font-size: 24px;
+  }
